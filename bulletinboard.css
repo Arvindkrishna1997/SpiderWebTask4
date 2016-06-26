@@ -1,0 +1,84 @@
+body {
+    background: #000 url(bodybg.jpg) top center no-repeat fixed;
+    padding-bottom: 20px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,Arial,Helvetica,sans-serif;
+
+}
+h2 {
+    color: #ffffff;
+    font-family: "Sofia", cursive;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+button{
+
+    background-color: #5bc856;
+    border: 0;
+    padding:6px 24px;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+}
+button:hover {
+    background: #16aa56;
+}
+button:active {
+    position:relative;
+    top:1px;
+}
+#adminpanel{
+    float:right;
+}
+input[type="submit"]
+{
+    background: #6D7781;
+    border: 0;
+    padding:6px 24px;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+input[type="submit"]:hover
+{
+    color:#5bc856;
+}
+textarea{
+    border:2px solid #eeeeee;
+    background-color: #eeeeee;
+    border-radius: 3px;
+}
+textarea:hover{
+    border:2px solid #1ae1ee;
+}
+::-webkit-input-placeholder {
+    color: #435160;
+    font-size: 15px;
+}
+.posts{
+    margin: auto;
+   text-align: left;
+    width: 300px;
+    padding: 10px;
+    background:rgba(65,65,65,0.5);
+
+    color: #ffffff;
+    font-size: .8em;
+    border: none;
+    margin-top: 20px;
+
+}
+.posts>button{
+    float:right;
+    font-size:12px;
+     padding:5px 5px;
+}

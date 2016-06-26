@@ -1,0 +1,58 @@
+body {
+    background: #000 url(bodybg.jpg) top center no-repeat fixed;
+    padding-bottom: 20px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,Arial,Helvetica,sans-serif;
+
+}
+h2 {
+    color: #ffffff;
+    font-family: "Sofia", cursive;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.users{
+    margin: auto;
+    text-align: left;
+    width: 300px;
+    padding: 10px;
+    background:rgba(65,65,65,0.5);
+    color: #ffffff;
+    font-size: .8em;
+    border: none;
+    margin-top: 20px;
+}
+.access{
+    display: inline-block;
+    outline: none;
+    float:right;
+    background: transparent;
+
+}
+#button{
+    float:right;
+    background-color: #5bc856;
+    border: 0;
+    padding:3px 3px;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+}
+#button:hover {
+    background: #16aa56;
+}
+#button:active {
+    position:relative;
+    top:1px;
+}
+select{
+    background: transparent;
+}
