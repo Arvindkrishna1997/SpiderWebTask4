@@ -36,7 +36,7 @@ Build Instructions:
 LIBRARIES USED:No library is used for the task.
 
 SCREENSHOTS:
-![Login page](hhttps://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/login%20page.png "Login page")
+![Login page](https://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/login%20page.png "Login page")
 ![Registration form](https://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/registration%20form.png "Registration form")
 ![bulletinboard](https://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/bulletinboard.png "bulletinboard")
 ![Admin_panel](https://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/admin_panel.png "admin_panel")
