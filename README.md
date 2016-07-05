@@ -13,6 +13,8 @@ TABLE USED: persons,snippets
 persons table is used to store all the user details.
 snippets table is used to store all the posts.
 
+Overview:
+  The Task was done with following the task description step by step.I experimented some of my own css styles,hope it looks good.
 
 Build Instructions:
 
@@ -32,3 +34,9 @@ Build Instructions:
   Dont run explicitly by mentioning the other file names unless otherwise required.
 
 LIBRARIES USED:No library is used for the task.
+
+SCREENSHOTS:
+![Login page](hhttps://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/login%20page.png "Login page")
+![Registration form](https://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/registration%20form.png "Registration form")
+![bulletinboard](https://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/bulletinboard.png "bulletinboard")
+![Admin_panel](https://github.com/Arvindkrishna1997/SpiderWebTask4/blob/master/admin_panel.png "admin_panel")
