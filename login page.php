@@ -50,8 +50,9 @@ if($_SERVER['REQUEST_METHOD']==="POST")
  	   }
      }
  }
-
- if($flag===0) {
+    
+    
+    if($flag===0) {
      echo "<div class='error'>invalid credentials!!!</div>";
  }
  $conn->close();

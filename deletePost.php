@@ -24,5 +24,6 @@ if ($conn->query($sql) === TRUE) {
 }
 else echo "failed";
     $conn->close();
+
 ?>
 

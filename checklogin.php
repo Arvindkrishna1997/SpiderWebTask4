@@ -10,5 +10,4 @@ else
 {
     echo "<script>alert('A user is already logged in.To login as another user please close the tabs and reopen again')</script>";
 }
-
 ?>

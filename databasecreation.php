@@ -50,7 +50,6 @@ email VARCHAR(40) UNIQUE,
 phoneno INT(10) UNIQUE,
 physicaladdress VARCHAR(300)
 )";
-
 if ($conn->query($sql) === TRUE) {
     echo "Table persons created successfully";
 } else {

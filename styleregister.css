@@ -71,7 +71,6 @@ input[type="submit"]:hover {
     animation-fill-mode: both;
     animation-duration: 1s;
 }
-
 @keyframes shake {
     0%, 100% {
         transform: translateX(0);
