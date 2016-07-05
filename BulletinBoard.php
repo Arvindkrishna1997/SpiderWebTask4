@@ -20,7 +20,7 @@ session_start();
             return true;
 
     }
-    function deletePost(id) {
+    function deletePost(id) {                      //a functionto delete a post
         // alert("going to delete :"+id);
         if (confirm("Are you sure")) {
             var xhttp = new XMLHttpRequest();
@@ -29,8 +29,6 @@ session_start();
             //alert("going to delete :"+id);
             xhttp.onreadystatechange = function () {
                 if (xhttp.readyState == 4 && xhttp.status == 200) {
-                    //document.getElementById("demo").innerHTML = xhttp.responseText;
-                    // alert("respnse text"+xhttp.responseText+"any");
                     if (xhttp.responseText.search("Success") == 0) {
                         var element = document.getElementById(id);
                         element.parentNode.removeChild(element);
@@ -41,8 +39,6 @@ session_start();
             };
             xhttp.open("POST", "deletePost.php", true);
             xhttp.send(formdata);
-
-            // window.location.href = "deletePost.php";
         }
     }
 </script>

@@ -1,17 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: arvind
- * Date: 6/26/2016
- * Time: 1:11 AM
- */
+
 $id=$_POST["id"];
 $newaccesslevel=$_POST["newaccesslevel"];
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "personDB";
-
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

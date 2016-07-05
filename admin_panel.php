@@ -10,7 +10,7 @@ session_start();
 </head>
 <body>
 <script>
-    function changeAccessLevel(selectId)
+    function changeAccessLevel(selectId)               //to change the accesslevel
     {  var xhtt=new XMLHttpRequest();
         var formdata=new FormData();
         formdata.append("id",selectId);
@@ -26,15 +26,9 @@ session_start();
                      alert("changed successfully");
                     location.reload();
                 }
-
             }
-
-
         };
-
         xhtt.send(formdata);
-
-
     }
 </script>
 
@@ -62,7 +56,7 @@ echo "no other user registered";
 if ($result->num_rows > 0) {
 // output data of each row
 while($row = $result->fetch_assoc()) {
-    if ($row["accesslevel"] == "admin")
+    if ($row["accesslevel"] == "admin")                  //echos to display the details of users and their access level
         echo "<div class='users'>".$row["name"] ."<div class='access'>admin</div></div><br/>";
     else if ($row["accesslevel"] == "editor")
       echo "<div class='users'>".$row["name"].""."<div class='access'>
@@ -82,4 +76,4 @@ while($row = $result->fetch_assoc()) {
 }
 ?>
 </body>
-                </html>
+</html>

@@ -3,12 +3,6 @@
 session_start();
 ?>
 <?php
-/**
- * Created by PhpStorm.
- * User: arvind
- * Date: 6/25/2016
- * Time: 1:59 AM
- */
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -26,8 +20,8 @@ if(!empty($posttext)) {
 
     $sql = "SELECT * FROM posts";
     $result = $conn->query($sql);
-    if ($result->num_rows === 0) {
-        $sql = "INSERT INTO snippets (id,post)
+    if ($result->num_rows === 0) {                           
+        $sql = "INSERT INTO snippets (id,post)                     <!--to insert the post-->
            VALUES (0,'$post')";
     } else
         $sql = "INSERT INTO snippets (post) 

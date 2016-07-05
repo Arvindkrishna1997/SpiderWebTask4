@@ -3,12 +3,6 @@
 session_start();
 ?>
 <?php
-/**
- * Created by PhpStorm.
- * User: arvind
- * Date: 6/25/2016
- * Time: 2:51 AM
-*/
 $id=$_POST["postid"];
 if($id==null)
     header("Location:login page.php");

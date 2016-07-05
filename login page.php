@@ -34,7 +34,7 @@ if($_SERVER['REQUEST_METHOD']==="POST")
  if ($result->num_rows > 0) {
      // output data of each row
      while($row = $result->fetch_assoc()) {
-         if($row["name"]===$_POST["name"]&&($row["password"]===$password1))
+         if($row["name"]===$_POST["name"]&&($row["password"]===$password1))     //checking the user credentials.
 
          {   if(empty($_SESSION["logged_name"])) {
              $_SESSION["logged_name"] = $row["name"];

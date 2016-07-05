@@ -57,7 +57,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Error creating table: " . $conn->error;
 }
 $sql = "INSERT INTO persons (name,password,accesslevel,email,phoneno,physicaladdress)
-VALUES ('Arvind', 'krishna','admin','arvindborn2win@gmail.com','2030168','srirangam')";
+VALUES ('admin', 'admin','admin','admin@gmail.com','20301456','trichy')";
 
 if ($conn->query($sql) === TRUE) {
 echo "\nSigned up  successfully.";
